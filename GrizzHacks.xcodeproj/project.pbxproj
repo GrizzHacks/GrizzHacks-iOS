@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEB6F0741C371FB700518513 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB6F0731C371FB700518513 /* AppDelegate.swift */; };
+		EEB6F0761C371FB700518513 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB6F0751C371FB700518513 /* ViewController.swift */; };
+		EEB6F0791C371FB700518513 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEB6F0771C371FB700518513 /* Main.storyboard */; };
+		EEB6F07B1C371FB700518513 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEB6F07A1C371FB700518513 /* Assets.xcassets */; };
+		EEB6F07E1C371FB700518513 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEB6F07C1C371FB700518513 /* LaunchScreen.storyboard */; };
+		EEB6F0891C371FB700518513 /* GrizzHacksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB6F0881C371FB700518513 /* GrizzHacksTests.swift */; };
+		EEB6F0941C371FB700518513 /* GrizzHacksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB6F0931C371FB700518513 /* GrizzHacksUITests.swift */; };
+		EEB6F0A21C373B2300518513 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB6F0A11C373B2300518513 /* ContentViewController.swift */; };
+		EEB6F0A41C373BE700518513 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB6F0A31C373BE700518513 /* MapViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEB6F0851C371FB700518513 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEB6F0681C371FB700518513 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEB6F06F1C371FB700518513;
+			remoteInfo = GrizzHacks;
+		};
+		EEB6F0901C371FB700518513 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEB6F0681C371FB700518513 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEB6F06F1C371FB700518513;
+			remoteInfo = GrizzHacks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EEB6F0701C371FB700518513 /* GrizzHacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrizzHacks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEB6F0731C371FB700518513 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EEB6F0751C371FB700518513 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EEB6F0781C371FB700518513 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEB6F07A1C371FB700518513 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEB6F07D1C371FB700518513 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEB6F07F1C371FB700518513 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEB6F0841C371FB700518513 /* GrizzHacksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrizzHacksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEB6F0881C371FB700518513 /* GrizzHacksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrizzHacksTests.swift; sourceTree = "<group>"; };
+		EEB6F08A1C371FB700518513 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEB6F08F1C371FB700518513 /* GrizzHacksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrizzHacksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEB6F0931C371FB700518513 /* GrizzHacksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrizzHacksUITests.swift; sourceTree = "<group>"; };
+		EEB6F0951C371FB700518513 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEB6F0A11C373B2300518513 /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		EEB6F0A31C373BE700518513 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEB6F06D1C371FB700518513 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB6F0811C371FB700518513 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB6F08C1C371FB700518513 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEB6F0671C371FB700518513 = {
+			isa = PBXGroup;
+			children = (
+				EEB6F0721C371FB700518513 /* GrizzHacks */,
+				EEB6F0871C371FB700518513 /* GrizzHacksTests */,
+				EEB6F0921C371FB700518513 /* GrizzHacksUITests */,
+				EEB6F0711C371FB700518513 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEB6F0711C371FB700518513 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEB6F0701C371FB700518513 /* GrizzHacks.app */,
+				EEB6F0841C371FB700518513 /* GrizzHacksTests.xctest */,
+				EEB6F08F1C371FB700518513 /* GrizzHacksUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEB6F0721C371FB700518513 /* GrizzHacks */ = {
+			isa = PBXGroup;
+			children = (
+				EEB6F0731C371FB700518513 /* AppDelegate.swift */,
+				EEB6F0751C371FB700518513 /* ViewController.swift */,
+				EEB6F0A31C373BE700518513 /* MapViewController.swift */,
+				EEB6F0A11C373B2300518513 /* ContentViewController.swift */,
+				EEB6F0771C371FB700518513 /* Main.storyboard */,
+				EEB6F07A1C371FB700518513 /* Assets.xcassets */,
+				EEB6F07C1C371FB700518513 /* LaunchScreen.storyboard */,
+				EEB6F07F1C371FB700518513 /* Info.plist */,
+			);
+			path = GrizzHacks;
+			sourceTree = "<group>";
+		};
+		EEB6F0871C371FB700518513 /* GrizzHacksTests */ = {
+			isa = PBXGroup;
+			children = (
+				EEB6F0881C371FB700518513 /* GrizzHacksTests.swift */,
+				EEB6F08A1C371FB700518513 /* Info.plist */,
+			);
+			path = GrizzHacksTests;
+			sourceTree = "<group>";
+		};
+		EEB6F0921C371FB700518513 /* GrizzHacksUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EEB6F0931C371FB700518513 /* GrizzHacksUITests.swift */,
+				EEB6F0951C371FB700518513 /* Info.plist */,
+			);
+			path = GrizzHacksUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEB6F06F1C371FB700518513 /* GrizzHacks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEB6F0981C371FB700518513 /* Build configuration list for PBXNativeTarget "GrizzHacks" */;
+			buildPhases = (
+				EEB6F06C1C371FB700518513 /* Sources */,
+				EEB6F06D1C371FB700518513 /* Frameworks */,
+				EEB6F06E1C371FB700518513 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GrizzHacks;
+			productName = GrizzHacks;
+			productReference = EEB6F0701C371FB700518513 /* GrizzHacks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEB6F0831C371FB700518513 /* GrizzHacksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEB6F09B1C371FB700518513 /* Build configuration list for PBXNativeTarget "GrizzHacksTests" */;
+			buildPhases = (
+				EEB6F0801C371FB700518513 /* Sources */,
+				EEB6F0811C371FB700518513 /* Frameworks */,
+				EEB6F0821C371FB700518513 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEB6F0861C371FB700518513 /* PBXTargetDependency */,
+			);
+			name = GrizzHacksTests;
+			productName = GrizzHacksTests;
+			productReference = EEB6F0841C371FB700518513 /* GrizzHacksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EEB6F08E1C371FB700518513 /* GrizzHacksUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEB6F09E1C371FB700518513 /* Build configuration list for PBXNativeTarget "GrizzHacksUITests" */;
+			buildPhases = (
+				EEB6F08B1C371FB700518513 /* Sources */,
+				EEB6F08C1C371FB700518513 /* Frameworks */,
+				EEB6F08D1C371FB700518513 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEB6F0911C371FB700518513 /* PBXTargetDependency */,
+			);
+			name = GrizzHacksUITests;
+			productName = GrizzHacksUITests;
+			productReference = EEB6F08F1C371FB700518513 /* GrizzHacksUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEB6F0681C371FB700518513 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Arpan Rughani";
+				TargetAttributes = {
+					EEB6F06F1C371FB700518513 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					EEB6F0831C371FB700518513 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EEB6F06F1C371FB700518513;
+					};
+					EEB6F08E1C371FB700518513 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EEB6F06F1C371FB700518513;
+					};
+				};
+			};
+			buildConfigurationList = EEB6F06B1C371FB700518513 /* Build configuration list for PBXProject "GrizzHacks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEB6F0671C371FB700518513;
+			productRefGroup = EEB6F0711C371FB700518513 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEB6F06F1C371FB700518513 /* GrizzHacks */,
+				EEB6F0831C371FB700518513 /* GrizzHacksTests */,
+				EEB6F08E1C371FB700518513 /* GrizzHacksUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEB6F06E1C371FB700518513 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB6F07E1C371FB700518513 /* LaunchScreen.storyboard in Resources */,
+				EEB6F07B1C371FB700518513 /* Assets.xcassets in Resources */,
+				EEB6F0791C371FB700518513 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB6F0821C371FB700518513 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB6F08D1C371FB700518513 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEB6F06C1C371FB700518513 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB6F0761C371FB700518513 /* ViewController.swift in Sources */,
+				EEB6F0A21C373B2300518513 /* ContentViewController.swift in Sources */,
+				EEB6F0741C371FB700518513 /* AppDelegate.swift in Sources */,
+				EEB6F0A41C373BE700518513 /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB6F0801C371FB700518513 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB6F0891C371FB700518513 /* GrizzHacksTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB6F08B1C371FB700518513 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB6F0941C371FB700518513 /* GrizzHacksUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEB6F0861C371FB700518513 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEB6F06F1C371FB700518513 /* GrizzHacks */;
+			targetProxy = EEB6F0851C371FB700518513 /* PBXContainerItemProxy */;
+		};
+		EEB6F0911C371FB700518513 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEB6F06F1C371FB700518513 /* GrizzHacks */;
+			targetProxy = EEB6F0901C371FB700518513 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EEB6F0771C371FB700518513 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEB6F0781C371FB700518513 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEB6F07C1C371FB700518513 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEB6F07D1C371FB700518513 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEB6F0961C371FB700518513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EEB6F0971C371FB700518513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEB6F0991C371FB700518513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GrizzHacks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.grizzhacks.GrizzHacks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EEB6F09A1C371FB700518513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GrizzHacks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.grizzhacks.GrizzHacks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EEB6F09C1C371FB700518513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GrizzHacksTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.grizzhacks.GrizzHacksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GrizzHacks.app/GrizzHacks";
+			};
+			name = Debug;
+		};
+		EEB6F09D1C371FB700518513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GrizzHacksTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.grizzhacks.GrizzHacksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GrizzHacks.app/GrizzHacks";
+			};
+			name = Release;
+		};
+		EEB6F09F1C371FB700518513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GrizzHacksUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.grizzhacks.GrizzHacksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GrizzHacks;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EEB6F0A01C371FB700518513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GrizzHacksUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.grizzhacks.GrizzHacksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GrizzHacks;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEB6F06B1C371FB700518513 /* Build configuration list for PBXProject "GrizzHacks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB6F0961C371FB700518513 /* Debug */,
+				EEB6F0971C371FB700518513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEB6F0981C371FB700518513 /* Build configuration list for PBXNativeTarget "GrizzHacks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB6F0991C371FB700518513 /* Debug */,
+				EEB6F09A1C371FB700518513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EEB6F09B1C371FB700518513 /* Build configuration list for PBXNativeTarget "GrizzHacksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB6F09C1C371FB700518513 /* Debug */,
+				EEB6F09D1C371FB700518513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EEB6F09E1C371FB700518513 /* Build configuration list for PBXNativeTarget "GrizzHacksUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB6F09F1C371FB700518513 /* Debug */,
+				EEB6F0A01C371FB700518513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEB6F0681C371FB700518513 /* Project object */;
+}
